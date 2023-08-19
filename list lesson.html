@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        ol{
+            background-color: aqua;
+        }
+        ol li:hover{/*hover is pseudo class*/
+            background-color: aquamarine;
+            font-size: larger;
+            border: 3px dashed black;
+            color: wheat;
+            font: 90px cursive;
+        }
+        input:hover{
+            background-color: aqua;
+            color: rgb(221, 127, 12);
+            font-family: cursive;
+            font-size: 50px;
+            font-variant: small-caps;
+            height: 100px;
+            width: 500px;
+            border-color: red;
+
+        }
+        input:focus{
+            background-color: rgba(186, 148, 205, 0.455);
+            
+        }
+        input:visited{
+            color: rgb(221, 127, 12);
+        }
+        input:active{
+            color: rgb(11, 255, 7);
+        }
+        #ide tr{
+            border: 5px solid green;
+            
+        }
+        
+           
+    
+        /* pseudo class
+        a:link|main|{color: blue}
+        a:visited|main|{text-decoration:name}
+        a:hover|main|{color:} 
+        a:active|main|{} click color change
+        a:hover{text-shadow}
+        input:focus{color}
+
+        refer ppt
+        form aadditional
+        <label for="username"></label>
+        <input type="text" id="username" name="username"> |use it additional no trained|
+        */
+        /* a:link{
+            color: blanchedalmond; |style for unvisited link|
+
+        } 
+        a:active{
+            font size
+        }
+                tr:nth-child(even){
+                tr:nth-child(odd){
+                tr:first-child{}
+                tr:last-child{}
+                p::first-letter{}
+                p::first-line{}
+table give in pixel, th will cover bordeer/ try giving border to only th/
+
+boxing
+content
+paddiing top right bottom left(shorthand)
+border
+margin top right bottom left
+margin: 0 auto/try/
+/study this/
+width+padding-left+
+        */
+        a:link{
+            color: bisque;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+        }
+        a:active{
+            font-size: 50px;
+        }
+        a:focus{
+            background-color: rgb(234, 255, 196);
+            font-weight: bold;
+        }
+        /* table,td,th{
+            border:5px solid;
+            border-collapse: collapse;
+            
+        } */
+        th:hover{
+            background-color: aqua;
+            font-size: 50px;
+        }
+        tr:nth-child(even){
+            background-color: brown;
+        }
+        tr:nth-child(odd){
+            background-color: burlywood;
+        }
+        p::first-letter{
+            font-weight: bold;
+            font-size: 40px;
+        }
+        p::selection{
+            background-color: rgb(102, 141, 141);
+
+        }
+        td{
+            height: 40px;
+            vertical-align: top;
+        }
+        td,th{
+            border: 2px;
+            border-top: 5px khaki;
+        }
+        p::before{
+            content: 'THis is a very beutiful world';
+        }
+        .tata{
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            box-shadow: 10px 20px 50px; 
+            margin: 100px auto;
+        }
+        .tata:hover{
+            border-radius: 50%;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <i class="fa-brands fa-apple" style="color: #b5b7ba;"></i>
+</head>
+<body><ol>
+        <li>Vijay</li>
+        <li>Ajith</li></i>
+        <li>Surya</li>
+        <LI>RAJNI</LI>
+        <LI>SHIVAJI</LI>
+    </ol>
+    <UL>
+        <LI>GEMINI</LI>
+        <LI>AVM</LI>
+        <LI>LYCA</LI>
+        <LI>SUN</LI>
+        <LI>VEL</LI>
+        <input type="text">
+        <a href="https://www.google.com"> click</a>
+    </UL>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Domain</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sam</td>
+            <td>FS</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sam</td>
+            <td>FS</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sam</td>
+            <td>FS</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sam</td>
+            <td>FS</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sam</td>
+            <td>FS</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sam</td>
+            <td>FS</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sam</td>
+            <td>FS</td>
+        </tr>
+        
+    </table>
+    <table id="ide">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Domain</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sam</td>
+            <td>FS</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sam</td>
+            <td>FS</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sam</td>
+            <td>FS</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sam</td>
+            <td>FS</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sam</td>
+            <td>FS</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sam</td>
+            <td>FS</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sam</td>
+            <td>FS</td>
+        </tr>
+        
+    </table>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti hic ut error quibusdam et dolore, recusandae architecto minus, eius, facilis omnis quis odit eum! Provident in vel consequuntur optio illum.
+Ad commodi corporis nostrum repellendus ducimus veritatis et, saepe dignissimos aspernatur ea, quidem iusto eaque vero deleniti, doloribus tempora vel minus! Dolore totam voluptatem doloribus cumque, nulla praesentium corporis ipsa?
+Repudiandae nisi nobis sequi deserunt fuga laudantium odio. Nemo, debitis laboriosam est a, provident harum itaque sunt dignissimos, consequuntur porro dolor distinctio alias nostrum saepe perspiciatis excepturi veniam tenetur? Deserunt?
+Quidem voluptatem culpa vero, officiis consequatur quam autem doloribus magni labore voluptatum. Magni aspernatur, tempora, repudiandae accusamus sed id et laudantium veniam eos, a dignissimos consectetur! Molestiae quam explicabo cumque?
+Amet aliquid laborum modi harum velit tempore ipsum officia cupiditate quo animi voluptatem pariatur quis libero incidunt, quaerat architecto aut illum dignissimos porro aspernatur eius hic. Aut ducimus quis labore!</p>
+<div class="tata"
+</body>
+</html>
