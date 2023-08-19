@@ -1,0 +1,5 @@
+body{
+    background-image: repeating-conic-gradient(red 10%  , orange 20%, yellow 30%, green 40%, blue 50%, indigo 60%, violet 70%);
+    background-repeat: repeat;
+    border-radius: 50%;
+}
