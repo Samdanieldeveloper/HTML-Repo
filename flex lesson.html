@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            color: white;
+            font-size: 20px;
+        }
+        .full{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-flow: row wrap;
+            align-content:flex-start;
+            align-content:flex-end;
+       
+        }
+        .boxone{
+            background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+            height: 200px;
+            width:  200px;
+            margin: 10px;
+            order: 3;
+            /* justify-self: start; */
+            /* align-self: center; */
+
+        }
+        .boxtwo{
+            background-image: radial-gradient(red, orange, yellow, green, blue, indigo, violet);
+            height: 200px;
+            width:  200px;
+            margin: 10px;
+            order: 2;
+
+        }
+        .boxthree{
+            background-image: conic-gradient( red, orange, yellow, green, blue, indigo, violet);
+            height: 200px;
+            width:  200px;
+            margin: 10px;
+            order: 1;
+
+        }
+        .boxfour{
+            background-image: linear-gradient(to left ,red, orange, yellow, green, blue, indigo, violet );
+            height: 200px;
+            width:  200px;
+            margin: 10px;
+            order: 5;
+
+        }
+        .boxfive{
+            background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            height: 200px;
+            width:  200px;
+            margin: 10px;
+            order: 4;
+
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="full">
+    <div class="boxone">1</div>
+    <div class="boxtwo">2</div>
+    <div class="boxthree">3</div>
+    <div class="boxfour">4</div>
+    <div class="boxfive">5</div>
+    </div>
+</body>
+</html>
